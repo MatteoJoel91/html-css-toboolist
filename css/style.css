@@ -16,13 +16,16 @@ body{
     vertical-align:top;
 }
 #box1{
-    width: 70%;
-    height: 80px;
+    width: 65%;
+    height: 30px;
     background-color: white;
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
 }
 #box2{
     width: 70%;
@@ -33,4 +36,46 @@ body{
     margin-right: auto;
     border-radius: 0px 0px 10px 10px;
     margin-top: 5px;
+    
+}
+#bottone1{
+    text-align: center;
+    color: #fff;
+    padding: 5px 10px;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+}
+#bottone2{
+    text-align: center;
+    text-decoration: none;
+    color: lightgrey;
+    padding: 5px 10px;
+    border: solid 1px lightgrey;
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+}
+.menu{
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+.menu::before{
+    content: " ▼ ";
+    font-size: 20px;
+}
+.opzioni::before{
+    content:" ✓ " ;
+    border: solid 1px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border-color: yellowgreen;
+    color: yellowgreen;
+}
+.opzioni{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
 }
