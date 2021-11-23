@@ -1,15 +1,21 @@
-
+/* Sfondo grigio */
 body{
     background-color: lightgrey;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
 }
+
+
+/* Sfondo bianco dell'intestazione */
 #content {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+/* Inizio edit della prima box bianca */
 .testo1{
     font-family: 'Outfit', sans-serif;
     font-size: 40px;
@@ -27,19 +33,7 @@ body{
     padding-left: 25px;
     padding-bottom: 10px;
 }
-#box2{
-    width: 65%;
-    height: 400px;
-    background-color: white;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0px 0px 10px 10px;
-    margin-top: 5px;
-    padding-left: 25px;
-    padding-top: 25px;
-    
-}
+
 #bottone1{
     text-align: center;
     color: #fff;
@@ -60,6 +54,22 @@ body{
     border-radius: 5px 5px 5px 5px;
     font-family: 'Outfit', sans-serif;
     font-size: 13px;
+}
+/* Fine edit della prima box bianca */
+
+/* Inizio edit della seconda box bianca */
+#box2{
+    width: 65%;
+    height: 400px;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-top: 25px;
+    
 }
 .menu{
     font-family: 'Outfit', sans-serif;
@@ -84,14 +94,6 @@ body{
     margin-top: 30px;
     line-height: 25px;
 }
-.testocolore{
-    background-color: #0095cd;
-    border-radius: 8px;
-    padding: 8px;
-    font-size: 8px ;
-    color: white;
-    font-family: sans-serif;
-}
 .opzioni2::before{
     content:" ✗ " ;
     border: solid 1px;
@@ -105,6 +107,14 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 25px;
+}
+.testocolore{
+    background-color: #0095cd;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 8px ;
+    color: white;
+    font-family: sans-serif;
 }
 .testocolore2{
     background-color:violet;
@@ -146,3 +156,4 @@ body{
     color: white;
     font-family: sans-serif;
 }
+/* Fine edit della seconda box bianca */
