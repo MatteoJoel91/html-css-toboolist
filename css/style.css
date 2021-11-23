@@ -28,14 +28,16 @@ body{
     padding-bottom: 10px;
 }
 #box2{
-    width: 70%;
-    height: 500px;
+    width: 65%;
+    height: 400px;
     background-color: white;
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 0px 0px 10px 10px;
     margin-top: 5px;
+    padding-left: 25px;
+    padding-top: 25px;
     
 }
 #bottone1{
@@ -61,21 +63,86 @@ body{
 }
 .menu{
     font-family: 'Outfit', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 .menu::before{
     content: " ▼ ";
-    font-size: 20px;
+    font-size: 15px;
 }
 .opzioni::before{
     content:" ✓ " ;
     border: solid 1px;
     border-radius: 50%;
     margin-right: 5px;
-    border-color: yellowgreen;
-    color: yellowgreen;
+    border-color: green;
+    color: green;
+    font-size: 10px;
 }
 .opzioni{
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.testocolore{
+    background-color: #0095cd;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 8px ;
+    color: white;
+    font-family: sans-serif;
+}
+.opzioni2::before{
+    content:" ✗ " ;
+    border: solid 1px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border-color: red;
+    color: red;
+    font-size: 10px;
+}
+.opzioni2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.testocolore2{
+    background-color:violet;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 8px ;
+    color: white;
+    font-family: sans-serif;
+}
+.testocolore3{
+    background-color: green;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 8px ;
+    color: white;
+    font-family: sans-serif;
+}
+.testocolore4{
+    background-color: orange;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 8px ;
+    color: white;
+    font-family: sans-serif;
+}
+.testocolore5{
+    background-color:palevioletred;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 8px ;
+    color: white;
+    font-family: sans-serif;
+}
+.testocolore6{
+    background-color:rgb(151, 223, 92);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 8px ;
+    color: white;
+    font-family: sans-serif;
 }
